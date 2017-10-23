@@ -1,36 +1,27 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 body {
   font-family: 'Merriweather', serif;
-  color: #222;
-}
+  color: #222; }
 
 h1, h2, h3 {
-  font-family: 'Poiret One', cursive;
-}
+  font-family: 'Poiret One', cursive; }
 
 header {
   background: red;
-  color: #eee;
-
-  &.full-height {
-    min-height: 100vh;
-  }
-
-  hgroup {
+  color: #eee; }
+  header.full-height {
+    min-height: 100vh; }
+  header hgroup {
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    max-width: 800px;
-  }
-}
+    max-width: 800px; }
 
 footer {
   padding: 2em;
   font-weight: 300;
-  text-align: center;
-}
+  text-align: center; }
