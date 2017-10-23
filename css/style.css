@@ -4,7 +4,7 @@
   padding: 0; }
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Lato', sans-serif;
   color: #222; }
 
 h1, h2, h3 {
@@ -17,7 +17,7 @@ h1, h2, h3 {
     text-decoration: none;
     border: 2px solid white;
     padding: 10px 20px;
-    margin-right: -7px; }
+    margin-right: -5px; }
     .button-container a:first-child {
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px; }
@@ -27,9 +27,26 @@ h1, h2, h3 {
 
 header {
   background: red;
-  color: #eee; }
+  color: #eee;
+  min-height: 50vh;
+  position: relative;
+  width: 100%; }
   header.full-height {
     min-height: 100vh; }
+  header h1 {
+    font-size: 6em;
+    position: absolute;
+    bottom: 20px;
+    left: 20px; }
+  header nav {
+    background: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+    header nav a {
+      text-decoration: none;
+      color: inherit;
+      padding: 10px 20px; }
   header hgroup {
     margin: 0 auto;
     padding: 10% 0;
@@ -37,7 +54,8 @@ header {
     width: 100%;
     max-width: 800px; }
     header hgroup h1 {
-      font-size: 8em; }
+      font-size: 8em;
+      position: static; }
     header hgroup h2 {
       margin-bottom: 2em; }
     header hgroup p {
