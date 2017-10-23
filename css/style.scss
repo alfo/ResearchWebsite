@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+@mixin small {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+
 // Definitions
 $button-radius: 10px;
 
@@ -56,6 +62,10 @@ header {
     position: absolute;
     bottom: 20px;
     left: 20px;
+
+     @include small {
+       bottom: 50px;
+     }
   }
 
   #home {
