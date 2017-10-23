@@ -38,15 +38,35 @@ header {
     position: absolute;
     bottom: 20px;
     left: 20px; }
-  header nav {
-    background: blue;
+  header #home {
     position: absolute;
-    bottom: 0;
-    right: 0; }
+    top: 30px;
+    left: 30px;
+    color: inherit;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc; }
+    header #home:hover {
+      background: rgba(255, 255, 255, 0.6); }
+    header #home:before {
+      content: "<";
+      margin-right: 10px; }
+  header nav {
+    position: absolute;
+    bottom: -2px;
+    right: 5px; }
     header nav a {
       text-decoration: none;
-      color: inherit;
-      padding: 10px 20px; }
+      color: white;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 10px 20px;
+      border: 1px solid white;
+      display: inline-block;
+      margin-right: -4px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px; }
   header hgroup {
     margin: 0 auto;
     padding: 10% 0;
