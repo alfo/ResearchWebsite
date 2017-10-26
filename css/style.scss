@@ -43,6 +43,13 @@ h1, h2, h3 {
       border-top-right-radius: $button-radius;
       border-bottom-right-radius: $button-radius;
     }
+
+    transition: background $animation-speed, color $animation-speed;
+
+    &:hover {
+      background: white;
+      color: rgba(0, 0, 0, 0.8);
+    }
   }
 }
 
