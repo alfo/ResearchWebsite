@@ -135,10 +135,12 @@ section {
     height: 2px;
     background: black; }
   section h2 {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-size: 2em; }
   section p {
     margin-bottom: 20px;
-    line-height: 1.4; }
+    line-height: 1.6;
+    font-size: 1.1em; }
     section p.leader {
       font-size: 1.5em;
       font-weight: 300; }
