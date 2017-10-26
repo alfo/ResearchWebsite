@@ -85,7 +85,11 @@ header {
       display: inline-block;
       margin-right: -4px;
       border-top-left-radius: 10px;
-      border-top-right-radius: 10px; }
+      border-top-right-radius: 10px;
+      transition: background 0.3s, color 0.3s; }
+      header nav a:hover {
+        background: rgba(255, 255, 255, 0.8);
+        color: rgba(0, 0, 0, 0.8); }
   header hgroup {
     margin: 0 auto;
     padding: 10% 0;

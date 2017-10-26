@@ -127,10 +127,12 @@ header {
       border-top-left-radius: $button-radius;
       border-top-right-radius: $button-radius;
 
-      //transition:
+      transition: background $animation-speed, color $animation-speed;
 
       &:hover {
-        
+        //padding-bottom: 20px;
+        background: rgba(255, 255, 255, 0.8);
+        color: rgba(0, 0, 0, 0.8);
       }
     }
   }
