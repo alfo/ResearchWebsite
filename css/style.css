@@ -90,13 +90,28 @@ header {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
-  padding-top: 40px;
   max-width: 800px; }
-  .container section {
-    margin: 20px 0; }
-  .container h2 {
+
+section {
+  margin: 20px 0; }
+  section .img {
+    margin: 40px auto 20px auto;
+    width: 100%;
+    max-width: 900px; }
+    section .img img {
+      width: 100%;
+      margin-bottom: 10px; }
+    section .img p {
+      text-align: center;
+      font-style: italic;
+      color: #888; }
+  section:after {
+    width: 100px;
+    height: 2px;
+    background: black; }
+  section h2 {
     margin-bottom: 10px; }
-  .container p {
+  section p {
     margin-bottom: 20px;
     line-height: 1.4; }
 
