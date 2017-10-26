@@ -26,18 +26,30 @@ h1, h2, h3 {
       border-bottom-right-radius: 10px; }
 
 header {
-  background: red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -60px;
   color: #eee;
   min-height: 50vh;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 40px; }
+  @media (max-width: 600px) {
+    header {
+      background-position: center center; } }
+  header.verification {
+    background-image: url(/img/verification_2.jpg); }
+    header.verification h1 {
+      color: white; }
   header.full-height {
-    min-height: 100vh; }
+    min-height: 100vh;
+    margin-bottom: 0; }
   header h1 {
     font-size: 6em;
     position: absolute;
     bottom: 20px;
-    left: 20px; }
+    left: 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
     @media (max-width: 600px) {
       header h1 {
         bottom: 50px;
@@ -116,6 +128,9 @@ section {
   section p {
     margin-bottom: 20px;
     line-height: 1.4; }
+    section p.leader {
+      font-size: 1.5em;
+      font-weight: 300; }
 
 footer {
   padding: 2em;

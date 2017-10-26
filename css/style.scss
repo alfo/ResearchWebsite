@@ -46,15 +46,29 @@ h1, h2, h3 {
 }
 
 header {
-  background: red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -60px;
   color: #eee;
+
+  @include small {
+    background-position: center center;
+  }
 
   min-height: 50vh;
   position: relative;
   width: 100%;
 
+  margin-bottom: 40px;
+
+  &.verification {
+    background-image: url(/img/verification_2.jpg);
+    h1 { color: white; }
+  }
+
   &.full-height {
     min-height: 100vh;
+    margin-bottom: 0;
   }
 
   h1 {
@@ -62,6 +76,7 @@ header {
     position: absolute;
     bottom: 20px;
     left: 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 
      @include small {
        bottom: 50px;
@@ -167,6 +182,11 @@ section {
   p {
     margin-bottom: 20px;
     line-height: 1.4;
+
+    &.leader {
+      font-size: 1.5em;
+      font-weight: 300;
+    }
   }
 }
 
