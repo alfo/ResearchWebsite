@@ -94,14 +94,16 @@ header {
 
 section {
   margin: 20px 0; }
-  section .img {
+  section .img, section .vid {
     margin: 40px auto 20px auto;
     width: 100%;
     max-width: 900px; }
-    section .img img {
+    section .img img, section .vid img {
       width: 100%;
       margin-bottom: 10px; }
-    section .img p {
+    section .img .fluid-width-video-wrapper, section .vid .fluid-width-video-wrapper {
+      margin-bottom: 10px; }
+    section .img p, section .vid p {
       text-align: center;
       font-style: italic;
       color: #888; }

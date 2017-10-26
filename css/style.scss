@@ -132,7 +132,7 @@ header {
 section {
   margin: 20px 0;
 
-  .img {
+  .img, .vid {
 
     margin: 40px auto 20px auto;
     width: 100%;
@@ -140,6 +140,10 @@ section {
 
     img {
       width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .fluid-width-video-wrapper {
       margin-bottom: 10px;
     }
 
