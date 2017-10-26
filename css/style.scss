@@ -12,6 +12,7 @@
 
 // Definitions
 $button-radius: 10px;
+$animation-speed: 0.3s;
 
 body {
   font-family: 'Lato', sans-serif;
@@ -47,6 +48,7 @@ h1, h2, h3 {
 
 header {
   background-size: cover;
+  background-color: #F75745;
   background-repeat: no-repeat;
   background-position: center -60px;
   color: #eee;
@@ -95,8 +97,11 @@ header {
     border-radius: 4px;
     border: 1px solid #ccc;
 
+    transition: background $animation-speed, color $animation-speed;
+
     &:hover {
       background: rgba(255, 255, 255, 0.6);
+      color: rgba(0, 0, 0, 0.6);
     }
 
     &:before {
@@ -121,6 +126,12 @@ header {
 
       border-top-left-radius: $button-radius;
       border-top-right-radius: $button-radius;
+
+      //transition:
+
+      &:hover {
+        
+      }
     }
   }
 
