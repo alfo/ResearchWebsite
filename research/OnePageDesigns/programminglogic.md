@@ -51,5 +51,5 @@ This password, in conjunction with the account password and the device's own pas
 
 
 
-##Bibliography
+## Bibliography
 https://www.collinsdictionary.com/dictionary/english/logic EDIT POINT
