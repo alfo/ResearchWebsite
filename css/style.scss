@@ -78,6 +78,14 @@ header {
   &.full-height {
     min-height: 100vh;
     margin-bottom: 0;
+    background-color: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45));
+    background-image: url(/img/landing.jpg);
+  }
+
+  h1, h2, hgroup p {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   }
 
   h1 {
@@ -85,7 +93,6 @@ header {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 
      @include small {
        bottom: 50px;
