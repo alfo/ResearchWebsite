@@ -15,6 +15,18 @@ Logical Security is the set of software safeguards that prevents this happening.
 This password, in conjunction with the account password and the device's own password, creates an extra barrier that a thief would need to overcome in order to maliciously access money. However, if the logic in the device's programming is incorrect, the device could fail to generate secure passwords. If this occurred, it would be drastically simpler for someone to log in and make unauthorised transactions. Therefore, following the principles of logic properly is crucial in the modern world.
 
 ## History of Logic in Computer Science
+1847 - George Boole first defines Boolean Algebra in 'The Mathematical Analysis of Logic'
+
+1870s - Georg Cantor starts publishing the start of his works first proposing set theory, which states that all mathematical objects can be organised into 'sets'
+
+1908 - Ernst Zermelo improves Cantor's set theory, fixing the flaws in the original
+
+1938 - Stephen Kleene creates a pair of recursion theorems, allowing users to make functions involving recursion.
+
+1950s - Alfred Tarski, along with his students at U.C. Berkeley, develop model theory. Model theory links mathematical logic to structures such as graphs.
+
+
+
 
 
 
