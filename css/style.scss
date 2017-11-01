@@ -210,6 +210,34 @@ section {
       font-weight: 300;
     }
   }
+
+  li img {
+  }
+
+  ol.timeline {
+  list-style: none;
+
+    li {
+      line-height: 1.6;
+      margin-bottom: 20px;
+      clear: right;
+
+      span {
+        font-size: 30px;
+        font-style: italic;
+        color: #777;
+        margin-right: 4px;
+      }
+
+      img {
+        height: 120px;
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
 }
 
 footer {

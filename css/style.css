@@ -144,6 +144,22 @@ section {
     section p.leader {
       font-size: 1.5em;
       font-weight: 300; }
+  section ol.timeline {
+    list-style: none; }
+    section ol.timeline li {
+      line-height: 1.6;
+      margin-bottom: 20px;
+      clear: right; }
+      section ol.timeline li span {
+        font-size: 30px;
+        font-style: italic;
+        color: #777;
+        margin-right: 4px; }
+      section ol.timeline li img {
+        height: 120px;
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px; }
 
 footer {
   padding: 2em;

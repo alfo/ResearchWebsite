@@ -29,22 +29,28 @@
 
       <div class="container">
 
-        <p class="leader">Suspendisse in risus dignissim, facilisis lorem vehicula, pretium turpis. Fusce tincidunt quis nulla et gravida</p>
+        <p class="leader">Program verification is defined as 'the study of mathematical methods for verifying whether or not a program executes as it is intended'. This means applying mathematics to test if a program runs correctly.</p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra commodo pharetra. Etiam eget justo accumsan, varius arcu vitae, luctus tellus. Maecenas nibh lorem, volutpat ac pretium vel, posuere vel felis. Quisque at fermentum ligula. Nullam at erat quis enim lobortis venenatis ac vitae magna. Integer iaculis dolor ante, id cursus nunc sodales in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean auctor velit sem. Pellentesque quis metus a ex volutpat condimentum. Cras a leo ac erat gravida pharetra ac eget ex. Proin dictum magna tempor risus tincidunt tempus. Vestibulum et nunc vel mauris molestie sagittis.</p>
+        <p>The goal of program verification is to prevent unintended consequences, caused by errors in the code, when running a program. This is especially important in mission-critical systems (where the computer is essential in performing a task, such as one on board a space shuttle). Ultimately, good program verification prevents loss of assets, reputation and sometimes lives.</p>
 
-        <p>Suspendisse in risus dignissim, facilisis lorem vehicula, pretium turpis. Fusce tincidunt quis nulla et gravida. Aliquam blandit eget elit vitae viverra. In sit amet convallis quam. Etiam finibus ornare arcu ut tempor. In vel sagittis nulla. Quisque in maximus nisi. Praesent malesuada tellus lectus, in ullamcorper velit tincidunt a.</p>
+        <h2>Why Verification Matters (Working Title)</h2>
+
+        <p>Nowadays, cockpits do not have many mechanical controls for piloting the aircraft. Instead, they have computers embedded in the aircraft and these computers control all the engine operations, hydraulic operations, etc. to make the aircraft fly. In this case, if an error occurs at runtime within the program installed on an aircraft computer, it can suddenly switch off all the engines and will not process any commands that pilots make to control flaps, rudders, or elevators as well as the engines. Such a failure could cost the lives of hundreds of passengers.</p>
+
+        <p>Additionally, even if a visible runtime error didn't occur, a calculation error could have catastrophic impacts. For instance, if the flight management computer fails to show the accurate flight path, then the aircraft could fly through restricted zones, putting the aircraft at risk of triggering military defences. Good program verification reduces the chances of such events occurring.</p>
+
+        <p>For the space industry, it is also important to ensure that the software runs as intended since the cost of launching a spacecraft is tremendous.</p>
 
       </div>
 
-      <div class="img">
-        <img src="/img/history_1.png">
-        <p>Caption Goes Here</p>
+      <div class="vid">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kYUrqdUyEpI" frameborder="0" allowfullscreen></iframe>
+        <p>Caption goes here</p>
       </div>
 
       <div class="container">
 
-        <p>Etiam faucibus dolor ac nisl hendrerit mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque odio dui, ultricies ac purus dictum, suscipit interdum enim. Nam eu luctus ante. Nullam eu consectetur nunc. Morbi rutrum faucibus feugiat. Aliquam vel dui sed lectus placerat commodo. Donec ipsum diam, accumsan eu consequat vitae, sagittis sed mi. Maecenas pulvinar suscipit tempor. Integer condimentum feugiat nibh, vel posuere lorem posuere at. Nulla aliquam vehicula ligula, eu ullamcorper sem venenatis et. Curabitur vehicula enim in enim scelerisque auctor sollicitudin at nunc. Duis a tincidunt erat. In odio ligula, lobortis non dignissim quis, sollicitudin ac quam. Curabitur eu neque ac erat venenatis consequat nec in est.</p>
+        <p>This video shows an infamous example of an unverified program causing an accident, namely the launch of the "Ariane 5" rocket. This explosion was caused by the imprecision when converting between two different data types, floating point values (such as 1.234) and integers. This imprecision caused an exception, meaning that the program could not run as expected. Thus the rocket control system failed, and the rocket itself exploded.</p>
 
       </div>
 
@@ -54,23 +60,37 @@
 
       <div class="container">
 
-        <h2>Section Heading</h2>
+        <h2>History</h2>
 
-        <p>Suspendisse in risus dignissim, facilisis lorem vehicula, pretium turpis. Fusce tincidunt quis nulla et gravida. Aliquam blandit eget elit vitae viverra. In sit amet convallis quam. Etiam finibus ornare arcu ut tempor. In vel sagittis nulla. Quisque in maximus nisi. Praesent malesuada tellus lectus, in ullamcorper velit tincidunt a.</p>
+        <ol class="timeline">
 
+          <li><span>1947</span><img src="img/verification_9.jpeg">John Von Neumann - He suggested that for ensuring the correctness of the program, writing assertions in a flow diagram is crucial.</li>
+
+          <li><span>1949</span><img src="img/verification_10.jpeg">Alan Turing - He summarised a very important mathematical thought that is required for program verification in his paper 'Checking a Large Routine'. <img:verification_12></li>
+
+          <li><span>1953</span> Henry Rice - He suggested that no mechanical device can verify the correctness of a program.</li>
+
+          <li><span>1955</span> John McCarthy - He realised the importance of mathematical logic in program verification and drew attention to the field of program verification.</li>
+
+          <li><span>1955</span><img src="img/verification_11.jpeg">Alfred Talski - His research resulted in a theorem called the 'Fixed point theorem', which is key to the field.</li>
+
+          <li><span>1967</span><img src="img/verification_13.jpeg">Robert Floyd - Inspired by John McCarthy, he summarised how program verification can be done. His paper, 'Assigning Meaning to Programs', <img:verification_14>, is cited today as the origin of program verification.</li>
+
+          <li><span>1977</span> Edmund Clarke <img: verification_15> -Showed that the process of program reasoning could be viewed as a calculation in his paper 'Program Invariants As Fixed Points'<img:verification_16>.</li>
+
+          <li><span>2009</span> Joseph Sifakis et al. - They suggested a way to overcome the limitations of program verification, as outlined by Rice's Theorem.</li>
 
       </div>
 
-      <div class="vid">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kYUrqdUyEpI" frameborder="0" allowfullscreen></iframe>
+    </section>
 
-        <p>Caption goes here</p>
-      </div>
+    <section>
 
       <div class="container">
 
-        <p>Etiam faucibus dolor ac nisl hendrerit mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque odio dui, ultricies ac purus dictum, suscipit interdum enim. Nam eu luctus ante. Nullam eu consectetur nunc. Morbi rutrum faucibus feugiat. Aliquam vel dui sed lectus placerat commodo. Donec ipsum diam, accumsan eu consequat vitae, sagittis sed mi. Maecenas pulvinar suscipit tempor. Integer condimentum feugiat nibh, vel posuere lorem posuere at. Nulla aliquam vehicula ligula, eu ullamcorper sem venenatis et. Curabitur vehicula enim in enim scelerisque auctor sollicitudin at nunc. Duis a tincidunt erat. In odio ligula, lobortis non dignissim quis, sollicitudin ac quam. Curabitur eu neque ac erat venenatis consequat nec in est.</p>
+        <h2>Key People</h2>
 
+        
 
       </div>
 
