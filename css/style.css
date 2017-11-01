@@ -164,7 +164,28 @@ section {
         margin-left: 20px;
         margin-bottom: 20px; }
 
+.person {
+  width: 25%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  height: 250px; }
+  @media (max-width: 800px) {
+    .person {
+      width: 50%; } }
+  .person img {
+    border-radius: 50px;
+    width: 100px;
+    margin: 10px auto; }
+  .person h3 {
+    font-size: 24px;
+    margin-bottom: 10px; }
+  .person p {
+    font-size: 16px;
+    line-height: 1.4; }
+
 footer {
   padding: 2em;
   font-weight: 300;
-  text-align: center; }
+  text-align: center;
+  clear: both; }
