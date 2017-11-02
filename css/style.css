@@ -195,6 +195,9 @@ section {
   float: left;
   padding: 20px;
   text-align: center; }
+  @media (max-width: 800px) {
+    .key-person {
+      width: 100%; } }
   .key-person img {
     height: 200px;
     margin-bottom: 20px; }
