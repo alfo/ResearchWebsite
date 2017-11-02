@@ -9,5 +9,5 @@ ENGS101P Team 4’s Research Website
 
 * style.css: Auto-compiled from style.scss, any direct changes here will be over-written
 
-##Note
+## Note
 * Please make sure to put an appropriate HTML code for each symbol e.g. &#39 instead of '.
