@@ -62,7 +62,7 @@ This video shows an infamous example of an unverified program causing an acciden
    -  Email: alexandra.silva@ucl.ac.uk
    -  Description: As shown by her publications, Dr Alexandra Silva has a broad range of research interests. She has recently published a journal paper related to the program verification.
 2. Prof. Byron Cook
-<img: verificatio_21>
+<img: verification_21>
    -  Professor of Computer Science
    -  Programming Principles, Logic and Verification research group
    -  Email: byroncook@gmail.com
