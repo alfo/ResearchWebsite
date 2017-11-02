@@ -54,7 +54,19 @@ This video shows an infamous example of an unverified program causing an acciden
    -  Description: As shown by her publications, Dr. Jade Alglave has broad range of research interests. She is currently contributing to verification research.
 
 
-
-
+## Key People (UCL PPLV research team only)
+1. Dr Alexandra Silva
+<img: verification_20>
+   -  Professor of Algebra, Semantics and Computation
+   -  Programming Principles, Logic and Verification research group
+   -  Email: alexandra.silva@ucl.ac.uk
+   -  Description: As shown by her publications, Dr Alexandra Silva has a broad range of research interests. She has recently published a journal paper related to the program verification.
+2. Prof. Byron Cook
+<img: verificatio_21>
+   -  Professor of Computer Science
+   -  Programming Principles, Logic and Verification research group
+   -  Email: byroncook@gmail.com
+   -  Description: Professor Byron Cook is a Professor of Computer Science at UCL and Director at Amazon. He also has a broad range of research interest and published various program verification related papers.
+   
 # Bibliography
 [2] V. D’Silva, Tales from verification history, 2009,[online access] http://www.cs.ox.ac.uk/publications/publication3240-abstract.html/  [Accessed on 16/10/2017]
