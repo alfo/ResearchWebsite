@@ -5,7 +5,7 @@ Programming Principles is a subset of the larger area of Theoretical Computer Sc
 
 Computer Science is still a very young field. Therefore, it is highly likely that our current understanding of systems, programs and resources still needs refining. The value of creating these new approaches to programming is that, ideally, they will result in safer, faster and more reliable computing.
 
-## Why Principles Matter (Working Title)
+## Why Principles Matter
 The reason that programming principles such as DRY (Don't Repeat Yourself) and YAGNI (You Aren't Gonna Need It) exist are to aid programmers in designing their software well. Important criteria for well-designed software include the software being testable, clear and well-documented. Poorly-designed software is difficult to fix, if the issues can even be diagnosed at all.
 
 Bad software design can lead to devastating consequences, as tragically seen in the 1980s. The Therac-25 was a pioneering radiation therapy machine, produced in 1982 in Canada, that was supposed to treat patients with cancer. However, due to numerous issues in the code, the machine occasionally malfunctioned and administered radiation doses hundreds of times greater than the intended dose. There were at least six accidents of this nature, between 1985 and 1987, resulting in three deaths. 
@@ -15,13 +15,13 @@ Bad software design can lead to devastating consequences, as tragically seen in 
 When the code was scrutinised, researchers found that a deadly cocktail of problems caused this tragedy. One issue was that code was reused from older models of the hardware, and said code didn't function properly in the new machine. Another was that even though the system detected an error with the dosage, it only displayed a simple error code which was even mentioned in the user manual. Thus the operators, who had become so accustomed to seeing 'MALFUNCTION' display on the screen for relatively trivial errors, ignored the important warnings and allowed the machine to continue running. Thus, the importance of well-designed, well-documented and well-tested code must never be underestimated.
 
 ## History of Programming Principles
-1954 - FORTRAN is developed at IBM. It was the first general purpose programming language used in machines.
+1954 - John Backus - <img: john_backus> He developed FORTRAN at IBM in 1954. It was the first general purpose programming language used in machines.
 
-1982 - One of the first mentions of the abstraction principle, in a book by A. J. Cole and R. Morrison [2]. The abstraction principle involves creating a function to use multiple times in a program instead of simply copy-pasting the same code throughout.
+1982 - A. J. Cole and R. Morrison - They published a book, 'An introduction to Programming with S-Algol', in 1982. [2]. The abstraction principle involves creating a function to use multiple times in a program instead of simply copy-pasting the same code throughout.
 
-1999 - Kent Beck publishes 'Extreme Programming Explained', which consolidated many important programming principles and took them to extreme levels.
+1999 - Kent Beck - <img: kent_beck> - He published 'Extreme Programming Explained', which consolidated many important programming principles and took them to extreme levels.
 
-2001 -'Manifesto for Agile Software Development' is published. Agile software development places emphasis on flexibility and continuous iteration.
+2001 -'Manifesto for Agile Software Development' was published. Agile software development places emphasis on flexibility and continuous iteration.
 
 ## Key People
 1. Prof. Peter O'Hearn
