@@ -5,7 +5,7 @@ Logic is defined as 'the principles underlying the units in a computer system th
 
 The reason people develop computer programs at all is to solve a problem. Such problems, in order to be expressed in code, must be organised into a series of steps. Logic is a proven way to check if the series of steps makes sense, thus resulting in a functioning program.
 
-## Why Logic Matters (Working Title)
+## Why Logic Matters
 Logic is an important component in security. In the past, security was entirely physical. For example, someone would have their life savings in the form of physical cash, which could be secured by a physical safe with a lock. Nowadays, it is entirely possible that one has their life savings stored in a bank, and it can be accessed digitally. Thus, it is of the utmost importance that there are measures in place to prevent someone logging into another person's account and stealing all their cash.
 
 Logical Security is the set of software safeguards that prevents this happening. These safeguards include having usernames, passwords and biometric authentication (such as fingerprint scanners on smartphones). Today, HSBC gives customers a physical device to generate a one-time password that must be used (in most cases) in order to access the user's bank account.
@@ -24,11 +24,6 @@ This password, in conjunction with the account password and the device's own pas
 1938 - Stephen Kleene creates a pair of recursion theorems, allowing users to make functions involving recursion.
 
 1950s - Alfred Tarski, along with his students at U.C. Berkeley, develop model theory. Model theory links mathematical logic to structures such as graphs.
-
-
-
-
-
 
 ## Key People
 1. Prof. David Pym
