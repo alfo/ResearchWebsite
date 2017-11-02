@@ -40,12 +40,12 @@ This password, in conjunction with the account password and the device's own pas
    - Email: r.hirsch@cs.ucl.ac.uk
    - Description: Prof. Hirsch's main research area is logic and mathematical foundations. A particular interest of his is logical algebra.
 
-3. Dr. James Brotherston
+3. Dr James Brotherston
 <img: ucl_researcher_3>
    - Reader in Logic and Computation
    - Programming Principles, Logic and Verification Group
    - Email: j.brotherston@cs.ucl.ac.uk
-   - Description: Also involved in verification, Dr. Brotherston is an expert in logic.
+   - Description: Also involved in verification, Dr Brotherston is an expert in logic.
 
 
 
