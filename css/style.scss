@@ -282,6 +282,18 @@ section {
     }
 }
 
+.key-person {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  text-align: center;
+
+  img {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+}
+
 footer {
   padding: 2em;
   font-weight: 300;

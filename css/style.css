@@ -190,6 +190,15 @@ section {
     font-size: 16px;
     line-height: 1.4; }
 
+.key-person {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  text-align: center; }
+  .key-person img {
+    height: 200px;
+    margin-bottom: 20px; }
+
 footer {
   padding: 2em;
   font-weight: 300;
