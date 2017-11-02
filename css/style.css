@@ -46,6 +46,11 @@ header {
     background-image: url(/img/verification_2.jpg); }
     header.verification h1 {
       color: white; }
+  header.principles {
+    background-image: url(/img/principles.jpg);
+    background-position: center center; }
+    header.principles h1 {
+      color: white; }
   header.full-height {
     min-height: 100vh;
     margin-bottom: 0;

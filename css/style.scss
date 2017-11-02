@@ -75,6 +75,12 @@ header {
     h1 { color: white; }
   }
 
+  &.principles {
+    background-image: url(/img/principles.jpg);
+    background-position: center center;
+    h1 { color: white; }
+  }
+
   &.full-height {
     min-height: 100vh;
     margin-bottom: 0;
