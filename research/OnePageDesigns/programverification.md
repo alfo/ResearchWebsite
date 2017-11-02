@@ -33,7 +33,7 @@ This video shows an infamous example of an unverified program causing an acciden
 2009 - Joseph Sifakis et al. - They suggested a way to overcome the limitations of program verification, as outlined by Rice's Theorem.
  
 ## Key People
-1. Dr. James Brotherston
+1. Dr James Brotherston
 <img: verification_6>
    - Reader in Logic and computation
    - Programming principles, logic and verification research group
