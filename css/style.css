@@ -54,7 +54,6 @@ header {
   header.full-height {
     min-height: 100vh;
     margin-bottom: 0;
-    background-color: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
     background-image: url(/img/landing.jpg);
     background-position: center center; }
   header h1, header h2, header hgroup p {
