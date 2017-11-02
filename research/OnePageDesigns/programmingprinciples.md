@@ -12,7 +12,7 @@ Bad software design can lead to devastating consequences, as tragically seen in 
 
 <img: therac_25>
 
-When the code was scrutinised, it was found that a deadly cocktail of problems caused this tragedy. One issue was that code was reused from older models of the hardware, and said code didn't function properly in the new machine. Another was that even though the system detected an error with the dosage, it only displayed a simple error code which was even mentioned in the user manual. Thus the operators, who had become so accustomed to seeing 'MALFUNCTION' display on the screen for relatively trivial errors, ignored the important warnings and allowed the machine to continue running. Thus, the importance of well-designed, well-documented and well-tested code must never be underestimated.
+When the code was scrutinised, researchers found that a deadly cocktail of problems caused this tragedy. One issue was that code was reused from older models of the hardware, and said code didn't function properly in the new machine. Another was that even though the system detected an error with the dosage, it only displayed a simple error code which was even mentioned in the user manual. Thus the operators, who had become so accustomed to seeing 'MALFUNCTION' display on the screen for relatively trivial errors, ignored the important warnings and allowed the machine to continue running. Thus, the importance of well-designed, well-documented and well-tested code must never be underestimated.
 
 ## History of Programming Principles
 1954 - FORTRAN is developed at IBM. It was the first general purpose programming language used in machines.
