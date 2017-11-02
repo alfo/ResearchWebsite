@@ -51,6 +51,11 @@ header {
     background-position: center center; }
     header.principles h1 {
       color: white; }
+  header.logic {
+    background-image: url(/img/logic.jpg);
+    background-position: center center; }
+    header.logic h1 {
+      color: white; }
   header.full-height {
     min-height: 100vh;
     margin-bottom: 0;

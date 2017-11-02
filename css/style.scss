@@ -81,6 +81,12 @@ header {
     h1 { color: white; }
   }
 
+  &.logic {
+    background-image: url(/img/logic.jpg);
+    background-position: center center;
+    h1 { color: white; }
+  }
+
   &.full-height {
     min-height: 100vh;
     margin-bottom: 0;
