@@ -62,7 +62,7 @@ header {
     background-image: url(/img/landing.jpg);
     background-position: center center; }
   header h1, header h2, header hgroup p {
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
+    text-shadow: 0px 0px 10px #646464; }
   header h1 {
     font-size: 6em;
     position: absolute;
@@ -113,6 +113,10 @@ header {
     text-align: center;
     width: 100%;
     max-width: 800px; }
+    @media (max-width: 800px) {
+      header hgroup {
+        padding: 20px;
+        padding-bottom: 70px; } }
     header hgroup h1 {
       font-size: 8em;
       position: static; }
