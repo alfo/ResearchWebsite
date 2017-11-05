@@ -55,7 +55,7 @@ h1, h2, h3 {
 
 header {
   background-size: cover;
-  background-color: #F75745;
+  background-color: #222;
   background-repeat: no-repeat;
   background-position: center -60px;
   color: #eee;
@@ -92,6 +92,10 @@ header {
     margin-bottom: 0;
     background-image: url(/img/landing.jpg);
     background-position: center center;
+  }
+
+  &.about {
+    background-color: #F75745;
   }
 
   h1, h2, hgroup p {
