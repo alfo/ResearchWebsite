@@ -23,6 +23,11 @@ h1, h2, h3 {
   font-family: 'Poiret One', cursive;
 }
 
+a {
+  color: inherit;
+  text-decoration-skip: ink;
+}
+
 .button-container {
 
   margin-top: 20px;
